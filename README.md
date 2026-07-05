@@ -37,15 +37,5 @@ Before feeding text into the RNN model, the reviews go through a rigorous prepro
 
 The custom RNN classifier is implemented in PyTorch and structured as follows:
 
-```mermaid
-graph TD
-    A[Input Features: 5000 TF-IDF] --> B[RNN Layer: 128 Hidden Units]
-    B --> C[Fully Connected Layer]
-    C --> D[Sigmoid Activation]
-    D --> E[Output Sentiment: 0 or 1]
-```
-
-## 🧠 Model Architecture
-
 ![RNN Architecture](rnn_architecture.png)
 
