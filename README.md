@@ -44,3 +44,8 @@ graph TD
     C --> D[Sigmoid Activation]
     D --> E[Output Sentiment: 0 or 1]
 ```
+
+## 🧠 Model Architecture
+
+![RNN Architecture](rnn_architecture.png)
+
