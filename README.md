@@ -33,9 +33,8 @@ Before feeding text into the RNN model, the reviews go through a rigorous prepro
 
 ---
 
-## 🧠 Model Architecture
+## 🧠 Model Architecture & Data Flow
 
-The custom RNN classifier is implemented in PyTorch and structured as follows:
+The following diagram illustrates the network layers, input/output dimensions, and the sequential flow of data through the RNN model:
 
-![RNN Architecture](rnn_architecture.png)
-
+![RNN Sentiment Classifier Architecture Diagram](rnn_architecture.png)
